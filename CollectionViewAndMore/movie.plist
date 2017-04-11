@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>movie_name</key>
+		<string>Collateral Beauty</string>
+		<key>genre</key>
+		<string>Drama,Romance</string>
+		<key>year</key>
+		<string>2016</string>
+		<key>rating</key>
+		<real>6.7</real>
+		<key>image_name</key>
+		<string>collateral_beauty.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>How To Train Your Dragon</string>
+		<key>genre</key>
+		<string>Animated</string>
+		<key>year</key>
+		<string>2010</string>
+		<key>rating</key>
+		<real>8.199999999999999</real>
+		<key>image_name</key>
+		<string>how_to_train_your_dragon.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>The Fast And The Furious</string>
+		<key>genre</key>
+		<string>Action</string>
+		<key>year</key>
+		<string>2001</string>
+		<key>rating</key>
+		<real>6.7</real>
+		<key>image_name</key>
+		<string>fast_and_furious.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Assassin&apos;s Creed</string>
+		<key>genre</key>
+		<string>Action</string>
+		<key>year</key>
+		<string>2016</string>
+		<key>rating</key>
+		<real>6</real>
+		<key>image_name</key>
+		<string>assassin&apos;s_creed_.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Wall-E</string>
+		<key>genre</key>
+		<string>Animated</string>
+		<key>year</key>
+		<string>2008</string>
+		<key>rating</key>
+		<real>8.4</real>
+		<key>image_name</key>
+		<string>walle.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Batman The Dark Knight</string>
+		<key>genre</key>
+		<string>Action</string>
+		<key>year</key>
+		<string>2008</string>
+		<key>rating</key>
+		<real>9</real>
+		<key>image_name</key>
+		<string>batman_the_dark_knight.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>P.S I Love You</string>
+		<key>genre</key>
+		<string>Romance</string>
+		<key>year</key>
+		<string>2007</string>
+		<key>rating</key>
+		<real>7.1</real>
+		<key>image_name</key>
+		<string>ps_i_love_you.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>The Croods</string>
+		<key>genre</key>
+		<string>Animated</string>
+		<key>year</key>
+		<string>2013</string>
+		<key>rating</key>
+		<real>7.2</real>
+		<key>image_name</key>
+		<string>the_croods.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Despicable Me</string>
+		<key>genre</key>
+		<string>Animated</string>
+		<key>year</key>
+		<string>2010</string>
+		<key>rating</key>
+		<real>7.7</real>
+		<key>image_name</key>
+		<string>despicable_me.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Deadpool</string>
+		<key>genre</key>
+		<string>Action</string>
+		<key>year</key>
+		<string>2016</string>
+		<key>rating</key>
+		<real>8</real>
+		<key>image_name</key>
+		<string>deadpool.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Jurassic World</string>
+		<key>genre</key>
+		<string>Science Fiction,Thriller</string>
+		<key>year</key>
+		<string>2015</string>
+		<key>rating</key>
+		<real>7</real>
+		<key>image_name</key>
+		<string>jurassic_world.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>The Wolverine</string>
+		<key>genre</key>
+		<string>Action</string>
+		<key>year</key>
+		<string>2013</string>
+		<key>rating</key>
+		<real>6.7</real>
+		<key>image_name</key>
+		<string>the_wolverine.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Monsters Inc</string>
+		<key>genre</key>
+		<string>Animated</string>
+		<key>year</key>
+		<string>2001</string>
+		<key>rating</key>
+		<real>8.1</real>
+		<key>image_name</key>
+		<string>monsters_inc.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Home Alone</string>
+		<key>genre</key>
+		<string>Comedy</string>
+		<key>year</key>
+		<string>Comedy</string>
+		<key>rating</key>
+		<real>7.4</real>
+		<key>image_name</key>
+		<string>home_alone.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>La La Land</string>
+		<key>genre</key>
+		<string>Romance</string>
+		<key>year</key>
+		<string>2016</string>
+		<key>rating</key>
+		<real>8.4</real>
+		<key>image_name</key>
+		<string>la_la_land.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Kung Fu Panda</string>
+		<key>genre</key>
+		<string>Animated</string>
+		<key>year</key>
+		<string>2008</string>
+		<key>rating</key>
+		<real>7.6</real>
+		<key>image_name</key>
+		<string>kung_fu_panda.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Iron Man</string>
+		<key>genre</key>
+		<string>Action</string>
+		<key>year</key>
+		<string>2008</string>
+		<key>rating</key>
+		<real>7.9</real>
+		<key>image_name</key>
+		<string>iron_man.jpg</string>
+	</dict>
+	<dict>
+		<key>movie_name</key>
+		<string>Batman The Dark Knight Rises.jpg</string>
+		<key>genre</key>
+		<string>Action</string>
+		<key>year</key>
+		<string>2012</string>
+		<key>rating</key>
+		<real>8.5</real>
+		<key>image_name</key>
+		<string>batman_the_dark_knight_rises.jpg</string>
+	</dict>
+</array>
+</plist>

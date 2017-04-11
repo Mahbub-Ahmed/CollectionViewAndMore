@@ -2,11 +2,14 @@
 //  AppDelegate.m
 //  CollectionViewAndMore
 //
-//  Created by Mahbub Ahmed on 4/11/17.
+//  Created by Mahbub Ahmed on 4/4/17.
 //  Copyright © 2017 Mahbub Ahmed. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MAMovieViewController.h"
+#import "MAFavoriteViewController.h"
+#import "MASeasonViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +19,65 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //Setting root view controller & tab bar controller
+    self.window.rootViewController = [self setTabBarController];;
+    [self.window makeKeyAndVisible];
+    
+    //Setting navigation tint color
+    [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
+    
     return YES;
+}
+
+-(UITabBarController *) setTabBarController
+{
+    //Initilizing view controller with nib
+    MAMovieViewController *movieViewController=[[MAMovieViewController alloc]initWithNibName:@"MAMovieViewController" bundle:[NSBundle mainBundle]];
+    MASeasonViewController *seasonViewController=[[MASeasonViewController alloc]initWithNibName:@"MASeasonViewController" bundle:[NSBundle mainBundle]];
+    MAFavoriteViewController *favoriteViewController=[[MAFavoriteViewController alloc]initWithNibName:@"MAFavoriteViewController" bundle:[NSBundle mainBundle]];
+    
+    
+    //Initlizing navigation controller with view controller
+    UINavigationController *movieNavController=[[UINavigationController alloc]initWithRootViewController:movieViewController];
+    UINavigationController *seasonNavController=[[UINavigationController alloc]initWithRootViewController:seasonViewController];
+    UINavigationController *favroiteNavController=[[UINavigationController alloc]initWithRootViewController:favoriteViewController];
+    
+    //IOS 7.0 and later by default navigation bar & tab bar  translucent is set to true
+    //setting navigation controller translucent to false
+    movieNavController.navigationBar.translucent = NO;
+    seasonNavController.navigationBar.translucent = NO;
+    favroiteNavController.navigationBar.translucent = NO;
+    
+    //Array of view controller's
+    NSArray* controllersWithNav = [NSArray arrayWithObjects:movieNavController, seasonNavController, favroiteNavController, nil];
+    
+    //Initilizing tab bar controller
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    //Adding view's to tab bar controller
+    tabBarController.viewControllers = controllersWithNav;
+    
+    //Setting tab bar icons/image
+    tabBarController.tabBar.items[0].image=[UIImage imageNamed:@"home"];
+    tabBarController.tabBar.items[1].image=[UIImage imageNamed:@"season"];
+    tabBarController.tabBar.items[2].image=[UIImage imageNamed:@"favorite"];
+    
+    //To set tab bar translucent to false 
+    //tabBarController.tabBar.translucent=NO;
+    
+
+    //Changing the tab bar selectioin color
+    [[UITabBar appearance] setTintColor:[UIColor blackColor]];
+    
+    //Setting tab bar title
+    tabBarController.tabBar.items[0].title=@"Movie";
+    tabBarController.tabBar.items[1].title=@"Season";
+    tabBarController.tabBar.items[2].title=@"Favorite";
+    
+    return tabBarController;
 }
 
 

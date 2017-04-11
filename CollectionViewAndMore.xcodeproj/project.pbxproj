@@ -8,13 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		6BF54C861E9D1A82000FDAEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54C851E9D1A82000FDAEB /* main.m */; };
-		6BF54C891E9D1A82000FDAEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54C881E9D1A82000FDAEB /* AppDelegate.m */; };
-		6BF54C8C1E9D1A82000FDAEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54C8B1E9D1A82000FDAEB /* ViewController.m */; };
 		6BF54C8F1E9D1A82000FDAEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54C8D1E9D1A82000FDAEB /* Main.storyboard */; };
 		6BF54C911E9D1A82000FDAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54C901E9D1A82000FDAEB /* Assets.xcassets */; };
 		6BF54C941E9D1A82000FDAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54C921E9D1A82000FDAEB /* LaunchScreen.storyboard */; };
 		6BF54C9F1E9D1A82000FDAEB /* CollectionViewAndMoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54C9E1E9D1A82000FDAEB /* CollectionViewAndMoreTests.m */; };
 		6BF54CAA1E9D1A82000FDAEB /* CollectionViewAndMoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CA91E9D1A82000FDAEB /* CollectionViewAndMoreUITests.m */; };
+		6BF54CD01E9D1B38000FDAEB /* MAFavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CBA1E9D1B38000FDAEB /* MAFavoriteViewController.m */; };
+		6BF54CD11E9D1B38000FDAEB /* MAFavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CBB1E9D1B38000FDAEB /* MAFavoriteViewController.xib */; };
+		6BF54CD21E9D1B38000FDAEB /* MAMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CBD1E9D1B38000FDAEB /* MAMovieDetailViewController.m */; };
+		6BF54CD31E9D1B38000FDAEB /* MAMovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CBE1E9D1B38000FDAEB /* MAMovieDetailViewController.xib */; };
+		6BF54CD41E9D1B38000FDAEB /* MAMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CC01E9D1B38000FDAEB /* MAMovieViewController.m */; };
+		6BF54CD51E9D1B38000FDAEB /* MAMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CC11E9D1B38000FDAEB /* MAMovieViewController.xib */; };
+		6BF54CD61E9D1B38000FDAEB /* MASeasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CC31E9D1B38000FDAEB /* MASeasonViewController.m */; };
+		6BF54CD71E9D1B38000FDAEB /* MASeasonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CC41E9D1B38000FDAEB /* MASeasonViewController.xib */; };
+		6BF54CD81E9D1B38000FDAEB /* MAMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CC81E9D1B38000FDAEB /* MAMovieCell.m */; };
+		6BF54CD91E9D1B38000FDAEB /* MAMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CC91E9D1B38000FDAEB /* MAMovieCell.xib */; };
+		6BF54CDA1E9D1B38000FDAEB /* MAMovieCellBG.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CCB1E9D1B38000FDAEB /* MAMovieCellBG.m */; };
+		6BF54CDB1E9D1B38000FDAEB /* MAMovieCellBG.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CCC1E9D1B38000FDAEB /* MAMovieCellBG.xib */; };
+		6BF54CDC1E9D1B38000FDAEB /* MASeasonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CCE1E9D1B38000FDAEB /* MASeasonCell.m */; };
+		6BF54CDD1E9D1B38000FDAEB /* MASeasonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CCF1E9D1B38000FDAEB /* MASeasonCell.xib */; };
+		6BF54CE31E9D1B40000FDAEB /* MAMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CE01E9D1B40000FDAEB /* MAMovie.m */; };
+		6BF54CE41E9D1B40000FDAEB /* MASeason.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CE21E9D1B40000FDAEB /* MASeason.m */; };
+		6BF54CE81E9D1B4E000FDAEB /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54CE71E9D1B4E000FDAEB /* Helper.m */; };
+		6BF54D071E9D1B56000FDAEB /* assassin's_creed_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CEA1E9D1B56000FDAEB /* assassin's_creed_.jpg */; };
+		6BF54D081E9D1B56000FDAEB /* batman_the_dark_knight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CEB1E9D1B56000FDAEB /* batman_the_dark_knight.jpg */; };
+		6BF54D091E9D1B56000FDAEB /* batman_the_dark_knight_rises.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CEC1E9D1B56000FDAEB /* batman_the_dark_knight_rises.jpg */; };
+		6BF54D0A1E9D1B56000FDAEB /* breaking_bad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CED1E9D1B56000FDAEB /* breaking_bad.jpg */; };
+		6BF54D0B1E9D1B56000FDAEB /* collateral_beauty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CEE1E9D1B56000FDAEB /* collateral_beauty.jpg */; };
+		6BF54D0C1E9D1B56000FDAEB /* daredevil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CEF1E9D1B56000FDAEB /* daredevil.jpg */; };
+		6BF54D0D1E9D1B56000FDAEB /* deadpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CF01E9D1B56000FDAEB /* deadpool.jpg */; };
+		6BF54D0E1E9D1B56000FDAEB /* despicable_me.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CF11E9D1B56000FDAEB /* despicable_me.jpg */; };
+		6BF54D0F1E9D1B56000FDAEB /* dragon_ball_z.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CF21E9D1B56000FDAEB /* dragon_ball_z.jpg */; };
+		6BF54D101E9D1B56000FDAEB /* fast_and_furious.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CF31E9D1B56000FDAEB /* fast_and_furious.jpg */; };
+		6BF54D111E9D1B56000FDAEB /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CF41E9D1B56000FDAEB /* favorite.png */; };
+		6BF54D121E9D1B56000FDAEB /* game_of_thrones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CF51E9D1B56000FDAEB /* game_of_thrones.jpg */; };
+		6BF54D131E9D1B56000FDAEB /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CF61E9D1B56000FDAEB /* home.png */; };
+		6BF54D141E9D1B56000FDAEB /* home_alone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CF71E9D1B56000FDAEB /* home_alone.jpg */; };
+		6BF54D151E9D1B56000FDAEB /* how_to_train_your_dragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CF81E9D1B56000FDAEB /* how_to_train_your_dragon.jpg */; };
+		6BF54D161E9D1B56000FDAEB /* iron_man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CF91E9D1B56000FDAEB /* iron_man.jpg */; };
+		6BF54D171E9D1B56000FDAEB /* jurassic_world.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CFA1E9D1B56000FDAEB /* jurassic_world.jpg */; };
+		6BF54D181E9D1B56000FDAEB /* kung_fu_panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CFB1E9D1B56000FDAEB /* kung_fu_panda.jpg */; };
+		6BF54D191E9D1B56000FDAEB /* la_la_land.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CFC1E9D1B56000FDAEB /* la_la_land.jpg */; };
+		6BF54D1A1E9D1B56000FDAEB /* monsters_inc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CFD1E9D1B56000FDAEB /* monsters_inc.jpg */; };
+		6BF54D1B1E9D1B56000FDAEB /* prison_break.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CFE1E9D1B56000FDAEB /* prison_break.jpg */; };
+		6BF54D1C1E9D1B56000FDAEB /* ps_i_love_you.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54CFF1E9D1B56000FDAEB /* ps_i_love_you.jpg */; };
+		6BF54D1D1E9D1B56000FDAEB /* season.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54D001E9D1B56000FDAEB /* season.png */; };
+		6BF54D1E1E9D1B56000FDAEB /* sherlock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54D011E9D1B56000FDAEB /* sherlock.jpg */; };
+		6BF54D1F1E9D1B56000FDAEB /* the_big_bang_theory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54D021E9D1B56000FDAEB /* the_big_bang_theory.jpg */; };
+		6BF54D201E9D1B56000FDAEB /* the_croods.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54D031E9D1B56000FDAEB /* the_croods.jpg */; };
+		6BF54D211E9D1B56000FDAEB /* the_flash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54D041E9D1B56000FDAEB /* the_flash.jpg */; };
+		6BF54D221E9D1B56000FDAEB /* the_wolverine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54D051E9D1B56000FDAEB /* the_wolverine.jpg */; };
+		6BF54D231E9D1B56000FDAEB /* walle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54D061E9D1B56000FDAEB /* walle.jpg */; };
+		6BF54D251E9D1C43000FDAEB /* season.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54D241E9D1C43000FDAEB /* season.plist */; };
+		6BF54D271E9D1C48000FDAEB /* movie.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BF54D261E9D1C48000FDAEB /* movie.plist */; };
+		6BF54D2A1E9D1C59000FDAEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF54D291E9D1C59000FDAEB /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +84,6 @@
 /* Begin PBXFileReference section */
 		6BF54C811E9D1A82000FDAEB /* CollectionViewAndMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewAndMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF54C851E9D1A82000FDAEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6BF54C871E9D1A82000FDAEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6BF54C881E9D1A82000FDAEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6BF54C8A1E9D1A82000FDAEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6BF54C8B1E9D1A82000FDAEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6BF54C8E1E9D1A82000FDAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BF54C901E9D1A82000FDAEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BF54C931E9D1A82000FDAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +94,66 @@
 		6BF54CA51E9D1A82000FDAEB /* CollectionViewAndMoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewAndMoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF54CA91E9D1A82000FDAEB /* CollectionViewAndMoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewAndMoreUITests.m; sourceTree = "<group>"; };
 		6BF54CAB1E9D1A82000FDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF54CB91E9D1B38000FDAEB /* MAFavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAFavoriteViewController.h; sourceTree = "<group>"; };
+		6BF54CBA1E9D1B38000FDAEB /* MAFavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAFavoriteViewController.m; sourceTree = "<group>"; };
+		6BF54CBB1E9D1B38000FDAEB /* MAFavoriteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAFavoriteViewController.xib; sourceTree = "<group>"; };
+		6BF54CBC1E9D1B38000FDAEB /* MAMovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMovieDetailViewController.h; sourceTree = "<group>"; };
+		6BF54CBD1E9D1B38000FDAEB /* MAMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMovieDetailViewController.m; sourceTree = "<group>"; };
+		6BF54CBE1E9D1B38000FDAEB /* MAMovieDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAMovieDetailViewController.xib; sourceTree = "<group>"; };
+		6BF54CBF1E9D1B38000FDAEB /* MAMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMovieViewController.h; sourceTree = "<group>"; };
+		6BF54CC01E9D1B38000FDAEB /* MAMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMovieViewController.m; sourceTree = "<group>"; };
+		6BF54CC11E9D1B38000FDAEB /* MAMovieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAMovieViewController.xib; sourceTree = "<group>"; };
+		6BF54CC21E9D1B38000FDAEB /* MASeasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASeasonViewController.h; sourceTree = "<group>"; };
+		6BF54CC31E9D1B38000FDAEB /* MASeasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASeasonViewController.m; sourceTree = "<group>"; };
+		6BF54CC41E9D1B38000FDAEB /* MASeasonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASeasonViewController.xib; sourceTree = "<group>"; };
+		6BF54CC71E9D1B38000FDAEB /* MAMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMovieCell.h; sourceTree = "<group>"; };
+		6BF54CC81E9D1B38000FDAEB /* MAMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMovieCell.m; sourceTree = "<group>"; };
+		6BF54CC91E9D1B38000FDAEB /* MAMovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAMovieCell.xib; sourceTree = "<group>"; };
+		6BF54CCA1E9D1B38000FDAEB /* MAMovieCellBG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMovieCellBG.h; sourceTree = "<group>"; };
+		6BF54CCB1E9D1B38000FDAEB /* MAMovieCellBG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMovieCellBG.m; sourceTree = "<group>"; };
+		6BF54CCC1E9D1B38000FDAEB /* MAMovieCellBG.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAMovieCellBG.xib; sourceTree = "<group>"; };
+		6BF54CCD1E9D1B38000FDAEB /* MASeasonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASeasonCell.h; sourceTree = "<group>"; };
+		6BF54CCE1E9D1B38000FDAEB /* MASeasonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASeasonCell.m; sourceTree = "<group>"; };
+		6BF54CCF1E9D1B38000FDAEB /* MASeasonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASeasonCell.xib; sourceTree = "<group>"; };
+		6BF54CDF1E9D1B40000FDAEB /* MAMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMovie.h; sourceTree = "<group>"; };
+		6BF54CE01E9D1B40000FDAEB /* MAMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMovie.m; sourceTree = "<group>"; };
+		6BF54CE11E9D1B40000FDAEB /* MASeason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASeason.h; sourceTree = "<group>"; };
+		6BF54CE21E9D1B40000FDAEB /* MASeason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASeason.m; sourceTree = "<group>"; };
+		6BF54CE61E9D1B4E000FDAEB /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		6BF54CE71E9D1B4E000FDAEB /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		6BF54CEA1E9D1B56000FDAEB /* assassin's_creed_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "assassin's_creed_.jpg"; sourceTree = "<group>"; };
+		6BF54CEB1E9D1B56000FDAEB /* batman_the_dark_knight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batman_the_dark_knight.jpg; sourceTree = "<group>"; };
+		6BF54CEC1E9D1B56000FDAEB /* batman_the_dark_knight_rises.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = batman_the_dark_knight_rises.jpg; sourceTree = "<group>"; };
+		6BF54CED1E9D1B56000FDAEB /* breaking_bad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = breaking_bad.jpg; sourceTree = "<group>"; };
+		6BF54CEE1E9D1B56000FDAEB /* collateral_beauty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collateral_beauty.jpg; sourceTree = "<group>"; };
+		6BF54CEF1E9D1B56000FDAEB /* daredevil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daredevil.jpg; sourceTree = "<group>"; };
+		6BF54CF01E9D1B56000FDAEB /* deadpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = deadpool.jpg; sourceTree = "<group>"; };
+		6BF54CF11E9D1B56000FDAEB /* despicable_me.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = despicable_me.jpg; sourceTree = "<group>"; };
+		6BF54CF21E9D1B56000FDAEB /* dragon_ball_z.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dragon_ball_z.jpg; sourceTree = "<group>"; };
+		6BF54CF31E9D1B56000FDAEB /* fast_and_furious.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fast_and_furious.jpg; sourceTree = "<group>"; };
+		6BF54CF41E9D1B56000FDAEB /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+		6BF54CF51E9D1B56000FDAEB /* game_of_thrones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = game_of_thrones.jpg; sourceTree = "<group>"; };
+		6BF54CF61E9D1B56000FDAEB /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		6BF54CF71E9D1B56000FDAEB /* home_alone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_alone.jpg; sourceTree = "<group>"; };
+		6BF54CF81E9D1B56000FDAEB /* how_to_train_your_dragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = how_to_train_your_dragon.jpg; sourceTree = "<group>"; };
+		6BF54CF91E9D1B56000FDAEB /* iron_man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iron_man.jpg; sourceTree = "<group>"; };
+		6BF54CFA1E9D1B56000FDAEB /* jurassic_world.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jurassic_world.jpg; sourceTree = "<group>"; };
+		6BF54CFB1E9D1B56000FDAEB /* kung_fu_panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kung_fu_panda.jpg; sourceTree = "<group>"; };
+		6BF54CFC1E9D1B56000FDAEB /* la_la_land.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = la_la_land.jpg; sourceTree = "<group>"; };
+		6BF54CFD1E9D1B56000FDAEB /* monsters_inc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monsters_inc.jpg; sourceTree = "<group>"; };
+		6BF54CFE1E9D1B56000FDAEB /* prison_break.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prison_break.jpg; sourceTree = "<group>"; };
+		6BF54CFF1E9D1B56000FDAEB /* ps_i_love_you.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ps_i_love_you.jpg; sourceTree = "<group>"; };
+		6BF54D001E9D1B56000FDAEB /* season.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = season.png; sourceTree = "<group>"; };
+		6BF54D011E9D1B56000FDAEB /* sherlock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sherlock.jpg; sourceTree = "<group>"; };
+		6BF54D021E9D1B56000FDAEB /* the_big_bang_theory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_big_bang_theory.jpg; sourceTree = "<group>"; };
+		6BF54D031E9D1B56000FDAEB /* the_croods.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_croods.jpg; sourceTree = "<group>"; };
+		6BF54D041E9D1B56000FDAEB /* the_flash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_flash.jpg; sourceTree = "<group>"; };
+		6BF54D051E9D1B56000FDAEB /* the_wolverine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = the_wolverine.jpg; sourceTree = "<group>"; };
+		6BF54D061E9D1B56000FDAEB /* walle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = walle.jpg; sourceTree = "<group>"; };
+		6BF54D241E9D1C43000FDAEB /* season.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = season.plist; sourceTree = "<group>"; };
+		6BF54D261E9D1C48000FDAEB /* movie.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = movie.plist; sourceTree = "<group>"; };
+		6BF54D281E9D1C53000FDAEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BF54D291E9D1C59000FDAEB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +184,10 @@
 		6BF54C781E9D1A82000FDAEB = {
 			isa = PBXGroup;
 			children = (
+				6BF54CE91E9D1B56000FDAEB /* Resource */,
+				6BF54CE51E9D1B4E000FDAEB /* Utilites */,
+				6BF54CDE1E9D1B40000FDAEB /* Models */,
+				6BF54CB71E9D1B38000FDAEB /* UI */,
 				6BF54C831E9D1A82000FDAEB /* CollectionViewAndMore */,
 				6BF54C9D1E9D1A82000FDAEB /* CollectionViewAndMoreTests */,
 				6BF54CA81E9D1A82000FDAEB /* CollectionViewAndMoreUITests */,
@@ -101,10 +208,10 @@
 		6BF54C831E9D1A82000FDAEB /* CollectionViewAndMore */ = {
 			isa = PBXGroup;
 			children = (
-				6BF54C871E9D1A82000FDAEB /* AppDelegate.h */,
-				6BF54C881E9D1A82000FDAEB /* AppDelegate.m */,
-				6BF54C8A1E9D1A82000FDAEB /* ViewController.h */,
-				6BF54C8B1E9D1A82000FDAEB /* ViewController.m */,
+				6BF54D261E9D1C48000FDAEB /* movie.plist */,
+				6BF54D241E9D1C43000FDAEB /* season.plist */,
+				6BF54D281E9D1C53000FDAEB /* AppDelegate.h */,
+				6BF54D291E9D1C59000FDAEB /* AppDelegate.m */,
 				6BF54C8D1E9D1A82000FDAEB /* Main.storyboard */,
 				6BF54C901E9D1A82000FDAEB /* Assets.xcassets */,
 				6BF54C921E9D1A82000FDAEB /* LaunchScreen.storyboard */,
@@ -138,6 +245,114 @@
 				6BF54CAB1E9D1A82000FDAEB /* Info.plist */,
 			);
 			path = CollectionViewAndMoreUITests;
+			sourceTree = "<group>";
+		};
+		6BF54CB71E9D1B38000FDAEB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6BF54CB81E9D1B38000FDAEB /* Controllers */,
+				6BF54CC51E9D1B38000FDAEB /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6BF54CB81E9D1B38000FDAEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BF54CB91E9D1B38000FDAEB /* MAFavoriteViewController.h */,
+				6BF54CBA1E9D1B38000FDAEB /* MAFavoriteViewController.m */,
+				6BF54CBB1E9D1B38000FDAEB /* MAFavoriteViewController.xib */,
+				6BF54CBC1E9D1B38000FDAEB /* MAMovieDetailViewController.h */,
+				6BF54CBD1E9D1B38000FDAEB /* MAMovieDetailViewController.m */,
+				6BF54CBE1E9D1B38000FDAEB /* MAMovieDetailViewController.xib */,
+				6BF54CBF1E9D1B38000FDAEB /* MAMovieViewController.h */,
+				6BF54CC01E9D1B38000FDAEB /* MAMovieViewController.m */,
+				6BF54CC11E9D1B38000FDAEB /* MAMovieViewController.xib */,
+				6BF54CC21E9D1B38000FDAEB /* MASeasonViewController.h */,
+				6BF54CC31E9D1B38000FDAEB /* MASeasonViewController.m */,
+				6BF54CC41E9D1B38000FDAEB /* MASeasonViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6BF54CC51E9D1B38000FDAEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6BF54CC61E9D1B38000FDAEB /* CustomCollectionViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6BF54CC61E9D1B38000FDAEB /* CustomCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6BF54CC71E9D1B38000FDAEB /* MAMovieCell.h */,
+				6BF54CC81E9D1B38000FDAEB /* MAMovieCell.m */,
+				6BF54CC91E9D1B38000FDAEB /* MAMovieCell.xib */,
+				6BF54CCA1E9D1B38000FDAEB /* MAMovieCellBG.h */,
+				6BF54CCB1E9D1B38000FDAEB /* MAMovieCellBG.m */,
+				6BF54CCC1E9D1B38000FDAEB /* MAMovieCellBG.xib */,
+				6BF54CCD1E9D1B38000FDAEB /* MASeasonCell.h */,
+				6BF54CCE1E9D1B38000FDAEB /* MASeasonCell.m */,
+				6BF54CCF1E9D1B38000FDAEB /* MASeasonCell.xib */,
+			);
+			path = CustomCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		6BF54CDE1E9D1B40000FDAEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BF54CDF1E9D1B40000FDAEB /* MAMovie.h */,
+				6BF54CE01E9D1B40000FDAEB /* MAMovie.m */,
+				6BF54CE11E9D1B40000FDAEB /* MASeason.h */,
+				6BF54CE21E9D1B40000FDAEB /* MASeason.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6BF54CE51E9D1B4E000FDAEB /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				6BF54CE61E9D1B4E000FDAEB /* Helper.h */,
+				6BF54CE71E9D1B4E000FDAEB /* Helper.m */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		6BF54CE91E9D1B56000FDAEB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6BF54CEA1E9D1B56000FDAEB /* assassin's_creed_.jpg */,
+				6BF54CEB1E9D1B56000FDAEB /* batman_the_dark_knight.jpg */,
+				6BF54CEC1E9D1B56000FDAEB /* batman_the_dark_knight_rises.jpg */,
+				6BF54CED1E9D1B56000FDAEB /* breaking_bad.jpg */,
+				6BF54CEE1E9D1B56000FDAEB /* collateral_beauty.jpg */,
+				6BF54CEF1E9D1B56000FDAEB /* daredevil.jpg */,
+				6BF54CF01E9D1B56000FDAEB /* deadpool.jpg */,
+				6BF54CF11E9D1B56000FDAEB /* despicable_me.jpg */,
+				6BF54CF21E9D1B56000FDAEB /* dragon_ball_z.jpg */,
+				6BF54CF31E9D1B56000FDAEB /* fast_and_furious.jpg */,
+				6BF54CF41E9D1B56000FDAEB /* favorite.png */,
+				6BF54CF51E9D1B56000FDAEB /* game_of_thrones.jpg */,
+				6BF54CF61E9D1B56000FDAEB /* home.png */,
+				6BF54CF71E9D1B56000FDAEB /* home_alone.jpg */,
+				6BF54CF81E9D1B56000FDAEB /* how_to_train_your_dragon.jpg */,
+				6BF54CF91E9D1B56000FDAEB /* iron_man.jpg */,
+				6BF54CFA1E9D1B56000FDAEB /* jurassic_world.jpg */,
+				6BF54CFB1E9D1B56000FDAEB /* kung_fu_panda.jpg */,
+				6BF54CFC1E9D1B56000FDAEB /* la_la_land.jpg */,
+				6BF54CFD1E9D1B56000FDAEB /* monsters_inc.jpg */,
+				6BF54CFE1E9D1B56000FDAEB /* prison_break.jpg */,
+				6BF54CFF1E9D1B56000FDAEB /* ps_i_love_you.jpg */,
+				6BF54D001E9D1B56000FDAEB /* season.png */,
+				6BF54D011E9D1B56000FDAEB /* sherlock.jpg */,
+				6BF54D021E9D1B56000FDAEB /* the_big_bang_theory.jpg */,
+				6BF54D031E9D1B56000FDAEB /* the_croods.jpg */,
+				6BF54D041E9D1B56000FDAEB /* the_flash.jpg */,
+				6BF54D051E9D1B56000FDAEB /* the_wolverine.jpg */,
+				6BF54D061E9D1B56000FDAEB /* walle.jpg */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +461,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BF54D161E9D1B56000FDAEB /* iron_man.jpg in Resources */,
+				6BF54D1A1E9D1B56000FDAEB /* monsters_inc.jpg in Resources */,
+				6BF54D0A1E9D1B56000FDAEB /* breaking_bad.jpg in Resources */,
+				6BF54D201E9D1B56000FDAEB /* the_croods.jpg in Resources */,
+				6BF54D181E9D1B56000FDAEB /* kung_fu_panda.jpg in Resources */,
+				6BF54CD71E9D1B38000FDAEB /* MASeasonViewController.xib in Resources */,
+				6BF54D171E9D1B56000FDAEB /* jurassic_world.jpg in Resources */,
 				6BF54C941E9D1A82000FDAEB /* LaunchScreen.storyboard in Resources */,
+				6BF54CDD1E9D1B38000FDAEB /* MASeasonCell.xib in Resources */,
+				6BF54D271E9D1C48000FDAEB /* movie.plist in Resources */,
+				6BF54D091E9D1B56000FDAEB /* batman_the_dark_knight_rises.jpg in Resources */,
+				6BF54D0E1E9D1B56000FDAEB /* despicable_me.jpg in Resources */,
 				6BF54C911E9D1A82000FDAEB /* Assets.xcassets in Resources */,
+				6BF54CD31E9D1B38000FDAEB /* MAMovieDetailViewController.xib in Resources */,
+				6BF54D1B1E9D1B56000FDAEB /* prison_break.jpg in Resources */,
+				6BF54D1D1E9D1B56000FDAEB /* season.png in Resources */,
+				6BF54D1E1E9D1B56000FDAEB /* sherlock.jpg in Resources */,
+				6BF54D121E9D1B56000FDAEB /* game_of_thrones.jpg in Resources */,
+				6BF54CD11E9D1B38000FDAEB /* MAFavoriteViewController.xib in Resources */,
+				6BF54D0D1E9D1B56000FDAEB /* deadpool.jpg in Resources */,
+				6BF54D211E9D1B56000FDAEB /* the_flash.jpg in Resources */,
+				6BF54D111E9D1B56000FDAEB /* favorite.png in Resources */,
+				6BF54D151E9D1B56000FDAEB /* how_to_train_your_dragon.jpg in Resources */,
+				6BF54D191E9D1B56000FDAEB /* la_la_land.jpg in Resources */,
+				6BF54D071E9D1B56000FDAEB /* assassin's_creed_.jpg in Resources */,
+				6BF54D101E9D1B56000FDAEB /* fast_and_furious.jpg in Resources */,
+				6BF54D221E9D1B56000FDAEB /* the_wolverine.jpg in Resources */,
+				6BF54D0F1E9D1B56000FDAEB /* dragon_ball_z.jpg in Resources */,
 				6BF54C8F1E9D1A82000FDAEB /* Main.storyboard in Resources */,
+				6BF54CDB1E9D1B38000FDAEB /* MAMovieCellBG.xib in Resources */,
+				6BF54D231E9D1B56000FDAEB /* walle.jpg in Resources */,
+				6BF54D081E9D1B56000FDAEB /* batman_the_dark_knight.jpg in Resources */,
+				6BF54D1F1E9D1B56000FDAEB /* the_big_bang_theory.jpg in Resources */,
+				6BF54D0C1E9D1B56000FDAEB /* daredevil.jpg in Resources */,
+				6BF54D131E9D1B56000FDAEB /* home.png in Resources */,
+				6BF54D141E9D1B56000FDAEB /* home_alone.jpg in Resources */,
+				6BF54D1C1E9D1B56000FDAEB /* ps_i_love_you.jpg in Resources */,
+				6BF54D0B1E9D1B56000FDAEB /* collateral_beauty.jpg in Resources */,
+				6BF54CD91E9D1B38000FDAEB /* MAMovieCell.xib in Resources */,
+				6BF54CD51E9D1B38000FDAEB /* MAMovieViewController.xib in Resources */,
+				6BF54D251E9D1C43000FDAEB /* season.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +526,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BF54C8C1E9D1A82000FDAEB /* ViewController.m in Sources */,
-				6BF54C891E9D1A82000FDAEB /* AppDelegate.m in Sources */,
+				6BF54CD61E9D1B38000FDAEB /* MASeasonViewController.m in Sources */,
+				6BF54CE31E9D1B40000FDAEB /* MAMovie.m in Sources */,
+				6BF54CE41E9D1B40000FDAEB /* MASeason.m in Sources */,
+				6BF54CD01E9D1B38000FDAEB /* MAFavoriteViewController.m in Sources */,
+				6BF54CD41E9D1B38000FDAEB /* MAMovieViewController.m in Sources */,
 				6BF54C861E9D1A82000FDAEB /* main.m in Sources */,
+				6BF54CDA1E9D1B38000FDAEB /* MAMovieCellBG.m in Sources */,
+				6BF54CD81E9D1B38000FDAEB /* MAMovieCell.m in Sources */,
+				6BF54D2A1E9D1C59000FDAEB /* AppDelegate.m in Sources */,
+				6BF54CDC1E9D1B38000FDAEB /* MASeasonCell.m in Sources */,
+				6BF54CD21E9D1B38000FDAEB /* MAMovieDetailViewController.m in Sources */,
+				6BF54CE81E9D1B4E000FDAEB /* Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +769,7 @@
 				6BF54CB01E9D1A82000FDAEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BF54CB11E9D1A82000FDAEB /* Build configuration list for PBXNativeTarget "CollectionViewAndMoreTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +778,7 @@
 				6BF54CB31E9D1A82000FDAEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BF54CB41E9D1A82000FDAEB /* Build configuration list for PBXNativeTarget "CollectionViewAndMoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +787,7 @@
 				6BF54CB61E9D1A82000FDAEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

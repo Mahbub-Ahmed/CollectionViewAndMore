@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>season_name</key>
+		<string>The Big Bang Theory</string>
+		<key>image_name</key>
+		<string>the_big_bang_theory.jpg</string>
+	</dict>
+	<dict>
+		<key>season_name</key>
+		<string>The Flash</string>
+		<key>image_name</key>
+		<string>the_flash.jpg</string>
+	</dict>
+	<dict>
+		<key>season_name</key>
+		<string>Game Of Thrones</string>
+		<key>image_name</key>
+		<string>game_of_thrones.jpg</string>
+	</dict>
+	<dict>
+		<key>season_name</key>
+		<string>Daredevil</string>
+		<key>image_name</key>
+		<string>daredevil.jpg</string>
+	</dict>
+	<dict>
+		<key>season_name</key>
+		<string>Sherlock</string>
+		<key>image_name</key>
+		<string>sherlock.jpg</string>
+	</dict>
+	<dict>
+		<key>season_name</key>
+		<string>Dragon Ball Z</string>
+		<key>image_name</key>
+		<string>dragon_ball_z.jpg</string>
+	</dict>
+	<dict>
+		<key>season_name</key>
+		<string>PrisonBreak</string>
+		<key>image_name</key>
+		<string>prison_break.jpg</string>
+	</dict>
+	<dict>
+		<key>season_name</key>
+		<string>Breaking Bad</string>
+		<key>image_name</key>
+		<string>breaking_bad.jpg</string>
+	</dict>
+</array>
+</plist>
