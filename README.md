@@ -1,6 +1,6 @@
 # CollectionViewAndMore
 
-<!---
+<!--- CollectionViewAndMore
 Created by Mahbub Ahmed on 4/11/2017
 Copyright © 2017 Mahbub Ahmed. All rights reserved.
 -->
